@@ -15,10 +15,9 @@ while True:
         music.play( ["b5:1"] )       
         display.show("{}".format(i))
         utime.sleep(1)
-	
+
     display.clear()    
     music.play( music.BA_DING )
-    
     utime.sleep_ms(randint(MIN_TIME, MAX_TIME))
     
     while True:
