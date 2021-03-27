@@ -21,3 +21,11 @@ while True:
     utime.sleep_ms(randint(MIN_TIME, MAX_TIME))
     display.show(Image.CHESSBOARD)
     
+    while True:
+        if button_a.is_pressed():
+            winner = "A"
+            break
+        
+        if button_b.is_pressed():
+            winner = "B"
+            break
