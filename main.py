@@ -29,3 +29,4 @@ while True:
         if button_b.is_pressed():
             winner = "B"
             break
+    display.show(winner)
