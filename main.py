@@ -20,12 +20,12 @@ while True:
     music.play( music.BA_DING )
     
     utime.sleep_ms(randint(MIN_TIME, MAX_TIME))
-    display.show(Image.CHESSBOARD)
     
     while True:
         if button_a.is_pressed():
             winner = "A"
             break
+        display.show(Image.CHESSBOARD)
         
         if button_b.is_pressed():
             winner = "B"
