@@ -1,6 +1,7 @@
 from microbit import *
 from random import randint
 import utime
+import music
 
 MIN_TIME = const(1 * 1000)
 MAX_TIME = const(10 * 1000)
