@@ -1,5 +1,9 @@
 from microbit import *
+from random import randint
+import utime
 
+MIN_TIME = const(1 * 1000)
+MAX_TIME = const(10 * 1000)
 
 while True:
 
@@ -13,3 +17,7 @@ while True:
 	
     display.clear()
     music.play( music.BA_DING )
+    
+    utime.sleep_ms(randint(MIN_TIME, MAX_TIME))
+    display.show(Image.CHESSBOARD)
+    
