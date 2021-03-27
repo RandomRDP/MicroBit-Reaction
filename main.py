@@ -48,4 +48,3 @@ while True:
             b_early = False
             
     display.show(winner)
-    utime.sleep(1)
