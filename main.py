@@ -8,8 +8,8 @@ MAX_TIME = const(10 * 1000)
 
 while True:
 
-		pass
     while not button_a.is_pressed() or not button_b.is_pressed():
+        pass
     
     for i in range(3, 0, -1):
         music.play( ["b5:1"] )       
