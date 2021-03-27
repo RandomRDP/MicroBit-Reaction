@@ -1,5 +1,5 @@
 from microbit import *
-from random import randint
+from random import *
 import utime
 import music
 
